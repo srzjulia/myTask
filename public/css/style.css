@@ -1,0 +1,64 @@
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+#task-add-form{
+    display: none;
+}
+
+ul.High {
+    color:red;
+    list-style-type: square;
+}
+
+ul.Medium {
+    color:yellow;
+    list-style-type: square;
+}
+
+ul.Low {
+    color: lime;
+    list-style-type: square;
+}
+
+.no-side-padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.table-padding{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #d3e0e9;
+}
+.aligned-text-button{
+    display: block;
+}
+.align-text-button{
+    display: inline-block;
+}
+
+th.actions{
+    min-width: 100px;
+}
+#show-task-pane, #edit-task-pane{
+    display: none;
+}
+
+.logo{
+    height: 65px;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
